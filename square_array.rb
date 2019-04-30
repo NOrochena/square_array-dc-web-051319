@@ -5,5 +5,5 @@ def square_array(array)
   #  square.push(ele**2)
  # end
   #square
-  array.collect()
+  array.collect{|ele| ele ** 2}
 end
